@@ -3,33 +3,33 @@ import img2 from "./assets/person2.png";
 import img3 from "./assets/person3.png";
 
 export const testimonialsSection = {
-  title: "What Our Customers Say",
-  subheading1_1: "Hear from Those",
-  subheading1_2: " Who Have Embraced Sustainable Living",
+  title: "Casos de Éxito",
+  subheading1_1: "Confianza respaldada por",
+  subheading1_2: " resultados comprobables",
   testimonials: [
     {
-      name: "Emily Johnson",
+      name: "Andrea V.",
       visual: img1,
-      occupation: "Homeowner",
+      occupation: "Comité de Administración",
       quote:
-        "Switching to [Company Name] was the best decision I made. Our home is now powered by clean energy, and I feel great knowing I'm contributing to a healthier planet.",
+        "Trabajar con una administradora que además es contadora auditora cambió por completo nuestra comunidad. Después de años de desorden, transparentaron las finanzas y resolvieron problemas críticos de mantenimiento en nuestras áreas comunes.",
     },
     {
-      name: "Carlos Rodriguez",
+      name: "Roberto S.",
       visual: img2,
-      occupation: "Business Owner",
+      occupation: "Presidente del Comité",
       quote:
-        "As a business owner, sustainability is crucial. [Company Name] provided us with a seamless transition to green energy, and we've seen a positive impact on both the environment and our operating costs.",
+        "Destaco profundamente su rigor legal y administrativo. La transición y aplicación de la nueva Ley de Copropiedad fue impecable. Saber que nuestra inversión está protegida normativamente nos da una tranquilidad invaluable.",
     },
     {
-      name: "Sophie Chen",
+      name: "Marcela C.",
       visual: img3,
-      occupation: "Environmental Advocate",
+      occupation: "Copropietaria, Sector Centro",
       quote:
-        "I'm passionate about the environment, and [Company Name] aligns perfectly with my values. Their commitment to renewable energy and reducing carbon footprint is commendable.",
+        "Llevamos una relación a largo plazo basada en la absoluta confianza. La estricta fiscalización a proveedores y la eficiente resolución de conflictos nos han demostrado que la experiencia y el profesionalismo hacen toda la diferencia.",
     },
   ],
   visual: "customer-testimonials-image.jpg",
-  callToAction: "Join Our Growing Community of Satisfied Customers",
-  button: "Get Started",
+  callToAction: "Únase a las comunidades que ya disfrutan de una gestión transparente",
+  button: "Contáctanos",
 };
