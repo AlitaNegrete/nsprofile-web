@@ -9,11 +9,11 @@ import img6 from "./assets/green.png";
 
 export const servicesSectionData = {
   title: "Gestión Integral de Copropiedades",
-  subheading: {
-    text1_1: "En un entorno legal y habitacional cada vez más complejo, las comunidades no solo necesitan administración; ",
+ subheading: {
+    text1_1: "Las comunidades modernas no solo necesitan administración; ",
     text1_2: "requieren seguridad.",
     text2:
-      "En SN Consultores, transformamos la gestión de copropiedad en un modelo de mejora continua, asegurando el cumplimiento del marco legal vigente y protegiendo la plusvalía de su inversión.",
+      "Garantizamos el cumplimiento legal y protegemos la plusvalía de su inversión mediante una gestión experta y transparente.",
   },
   services: [
     {
