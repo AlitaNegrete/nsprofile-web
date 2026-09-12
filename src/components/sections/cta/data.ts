@@ -4,30 +4,30 @@ import svg3 from "./assets/green-3.svg?raw";
 import svg4 from "./assets/green-4.svg?raw";
 
 export const getInvolvedSection = {
-  title: "Get Involved",
-  subheading1_1: "Join Us ",
-  subheading1_2: "in Building a Sustainable Future",
+  title: "Trabajemos Juntos",
+  subheading1_1: "Un proceso transparente ",
+  subheading1_2: "para transformar su comunidad",
   initiatives: [
     {
-      title: "Community Outreach",
+      title: "1. Diagnóstico Inicial",
       description:
-        "Discover our community initiatives aimed at promoting awareness and education on sustainable living. Join us in creating a positive impact together.",
+        "Analizamos el estado financiero, contable y legal actual de su edificio o condominio. Evaluamos los puntos críticos sin ningún compromiso para el comité.",
       visual: svg2,
     },
     {
-      title: "Green Events",
+      title: "2. Propuesta a la Medida",
       description:
-        "Participate in our upcoming green events. From tree-planting drives to eco-friendly workshops, be a part of the movement towards a healthier planet.",
+        "Diseñamos un plan de trabajo estructurado y transparente, alineado estrictamente con la Ley de Copropiedad y ajustado a las necesidades reales de los copropietarios.",
       visual: svg4,
     },
     {
-      title: "Partnerships for Sustainability",
+      title: "3. Gestión y Tranquilidad",
       description:
-        "Explore our partnerships with organizations dedicated to environmental conservation. Learn how you can contribute to sustainable practices through collaboration.",
+        "Asumimos la administración integral con rigor profesional, auditoría continua y una fluida comunicación para devolver la paz y el orden a su comunidad.",
       visual: svg3,
     },
   ],
   visual: "get-involved-section-image.jpg",
-  callToAction: "Take Action Today for a Greener Tomorrow",
-  button: "Join Our Initiatives",
+  callToAction: "Dé el primer paso hacia una administración profesional y sin sorpresas",
+  button: "Hablemos por WhatsApp",
 };
