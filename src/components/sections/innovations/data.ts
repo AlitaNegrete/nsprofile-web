@@ -1,32 +1,32 @@
-import imgGrid from "./assets/inno-grid.webp";
-import imgSolar from "./assets/inno-panel.webp";
-import imgWind from "./assets/inno-wind.webp";
+import imgGrid from "./assets/inno1.jpg";
+import imgSolar from "./assets/inno2.jpg";
+import imgWind from "./assets/inno3.jpg";
 
 export const innovationsSection = {
-  title: "Latest Innovations",
-  subheading1_1: "Discover Our Cutting-edge",
-  subheading1_2: " Green Energy Technologies",
+  title: "Nuestro Valor Agregado",
+  subheading1_1: "Descubra nuestra metodología ",
+  subheading1_2: "basada en el rigor profesional",
   innovations: [
     {
-      title: "Smart Grid Integration",
+      title: "Auditoría Continua y Transparencia",
       description:
-        "Revolutionize energy distribution with our smart grid technology, optimizing efficiency, minimizing wastage, and adapting to demand fluctuations. Stay connected with innovative solutions for a sustainable, cost-effective energy ecosystem. Embrace the future with our cutting-edge smart grid integration, enhancing reliability and paving the way for efficiency and sustainability.",
+        "Aplicamos el rigor de la auditoría financiera a la administración diaria de su comunidad. Revisamos cada peso ingresado y gastado, garantizando que los gastos comunes reflejen la realidad contable. Entregamos reportes claros y detallados para que el comité y los residentes tengan control absoluto sobre sus recursos.",
       visual: imgGrid,
     },
     {
-      title: "Advanced Solar Panel Design",
+      title: "Sólido Respaldo Normativo",
       description:
-        "Boost solar efficiency with our state-of-the-art solar panel designs. Our innovative technologies capture more sunlight, ensuring maximum energy production for your home or business. Experience enhanced sustainability and increased energy output with our advanced solar solutions.",
+        "No dejamos espacio a la improvisación legal. Nuestra gestión se basa en el estricto cumplimiento de la Ley de Copropiedad Inmobiliaria y las normativas laborales vigentes. Minimizamos el riesgo de multas y demandas, blindando a la comunidad ante contingencias legales y asegurando un funcionamiento impecable.",
       visual: imgSolar,
     },
     {
-      title: "Next-gen Wind Turbines",
+      title: "Trayectoria y Experiencia",
       description:
-        "Transform your wind energy experience with our next-generation wind turbines. Our sleek design, enhanced efficiency, and minimal environmental impact underscore our commitment to innovation. Elevate your sustainable energy journey with cutting-edge wind solutions that prioritize both performance and environmental responsibility.",
+        "Respaldamos nuestro trabajo con más de una década administrando comunidades de manera exitosa. Entendemos que cada edificio es un ecosistema único con desafíos particulares. Nuestra trayectoria nos permite anticipar problemas, optimizar el mantenimiento preventivo y resolver conflictos con rapidez y total empatía.",
       visual: imgWind,
     },
   ],
   visual: "innovations-section-image.jpg",
-  callToAction: "Explore the Future of Green Energy with [Company Name]",
-  button: "Learn More",
+  callToAction: "Transforme la administración de su edificio con SN Consultores.",
+  button: "Agendar Asesoría",
 };
