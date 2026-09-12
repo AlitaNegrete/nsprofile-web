@@ -11,7 +11,7 @@ export const servicesSectionData = {
   title: "Gestión Integral de Copropiedades",
  subheading: {
     text1_1: "Las comunidades modernas no solo necesitan administración; ",
-    text1_2: "requieren seguridad.",
+    text1_2: "requieren total transparencia.",
     text2:
       "Garantizamos el cumplimiento legal y protegemos la plusvalía de su inversión mediante una gestión experta y transparente.",
   },
