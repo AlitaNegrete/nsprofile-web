@@ -22,25 +22,21 @@ export interface Props {
 const { className = "" } = Astro.props;
 ---
 
-<section class=`relative  ${className} w-full h-[80vh]` id="hero">
-  <div class="w-full h-[80vh] pt-[100px]">
+<section class=`relative  ${className} w-full min-h-[80vh]` id="hero">
+  <div class="w-full min-h-[80vh] pt-[100px]">
     <div
       class="w-full h-full grid grid-cols-1 md:grid-cols-2 justify-end bg-base-100 dark:bg-base-dark-900"
     >
-      <div class="justify-center flex flex-col text-center md:ml-auto">
+      <div class="justify-center flex flex-col text-center md:ml-auto pb-10 md:pb-0 px-4 md:px-8">
         <Title className="">
           {heroSection.headline1}
-          <GradiantText
-            >{" " + heroSection.headline2}
-            <br />
-            {" " + heroSection.headline3}
-          </GradiantText>{heroSection.headline4}
+          <GradiantText>
+            {" " + heroSection.headline2 + " " + heroSection.headline3}
+          </GradiantText>
+          {" " + heroSection.headline4}
         </Title>
         <SubTitle className=" mt-10 leading-9 italic">
-          {heroSection.subheading1}
-          <br />
-          {heroSection.subheading2}<br />
-          {heroSection.subheading3}
+          {heroSection.subheading1} {heroSection.subheading2} {heroSection.subheading3}
         </SubTitle>
         <div class="pt-10">
           <CtaButton>{heroSection.buttonText}</CtaButton>
