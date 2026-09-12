@@ -1,6 +1,6 @@
-import imgGrid from "./assets/inno1.jpg";
-import imgSolar from "./assets/inno2.jpg";
-import imgWind from "./assets/inno3.jpg";
+import imgGrid from "./assets/inno-grid.webp";
+import imgSolar from "./assets/inno-panel.webp";
+import imgWind from "./assets/inno-wind.webp";
 
 export const innovationsSection = {
   title: "Nuestro Valor Agregado",
