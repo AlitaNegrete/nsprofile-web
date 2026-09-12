@@ -5,13 +5,10 @@ import SubTitle from "../../shared/SubTitle.astro";
 import Title from "../../shared/Title.astro";
 
 const heroSection = {
-  headline1: "Gestión Inmobiliaria",
-  headline2: "con",
-  headline3: "Respaldo:",
-  headline4: "Solidez para su Comunidad",
-  subheading1: "Administración transparente y asesoría experta",
-  subheading2: "para la tranquilidad y eficiencia",
-  subheading3: "de su comunidad.",
+  headline1: "Gestión Inmobiliaria ",
+  headline2: "con Respaldo: ",
+  headline3: "Solidez para su Comunidad",
+  subheading: "Administración transparente y asesoría experta para la tranquilidad y eficiencia de su comunidad.",
   buttonText: "Contáctanos",
 };
 
@@ -28,17 +25,15 @@ const { className = "" } = Astro.props;
       class="w-full h-full grid grid-cols-1 md:grid-cols-2 justify-end bg-base-100 dark:bg-base-dark-900"
     >
       <div class="justify-center flex flex-col text-center md:ml-auto pb-10 md:pb-0 px-4 md:px-8">
-        <Title className="">
+        <Title className="!text-4xl md:!text-6xl !leading-tight">
           {heroSection.headline1}
-          <GradiantText>
-            {" " + heroSection.headline2 + " " + heroSection.headline3}
-          </GradiantText>
-          {" " + heroSection.headline4}
+          <GradiantText>{heroSection.headline2}</GradiantText>
+          {heroSection.headline3}
         </Title>
-        <SubTitle className=" mt-10 leading-9 italic">
-          {heroSection.subheading1} {heroSection.subheading2} {heroSection.subheading3}
+        <SubTitle className="mt-6 md:mt-10 leading-relaxed italic text-lg">
+          {heroSection.subheading}
         </SubTitle>
-        <div class="pt-10">
+        <div class="pt-8 md:pt-10">
           <CtaButton>{heroSection.buttonText}</CtaButton>
         </div>
       </div>
