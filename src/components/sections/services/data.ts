@@ -9,7 +9,7 @@ import img6 from "./assets/green.png";
 
 export const servicesSectionData = {
   title: "Gestión Integral de Copropiedades",
- subheading: {
+  subheading: {
     text1_1: "Las comunidades modernas no solo necesitan administración; ",
     text1_2: "requieren total transparencia.",
     text2:
@@ -17,39 +17,39 @@ export const servicesSectionData = {
   },
   services: [
     {
-      title: "Solar Power Solutions",
+      title: "Gestión Financiera y Contable",
       briefDescription:
-        "Harness the power of the sun with our state-of-the-art solar panels. Generate clean energy for your home or business and reduce your carbon footprint.",
+        "Manejo transparente de gastos comunes, presupuestos y cobranza, asegurando la total salud financiera de su comunidad.",
       visual: img1,
     },
     {
-      title: "Wind Energy Harvesting",
+      title: "Asesoría Legal y Normativa",
       briefDescription:
-        "Embrace the power of the wind. Our wind energy solutions provide a sustainable and efficient way to generate electricity, ensuring a greener future.",
+        "Aplicación estricta de la Ley de Copropiedad y normativas vigentes para proteger su inversión y evitar contingencias.",
       visual: img2,
     },
     {
-      title: "Hydropower Systems",
+      title: "Auditoría de Comunidades",
       briefDescription:
-        "Flow with nature. Our hydropower systems harness the energy of flowing water, delivering reliable and eco-friendly electricity to your doorstep.",
+        "Revisión exhaustiva de administraciones anteriores para detectar irregularidades, sanear cuentas y proponer mejoras inmediatas.",
       visual: img3,
     },
     {
-      title: "Energy Storage Solutions",
+      title: "Gestión de Recursos Humanos",
       briefDescription:
-        "Store excess energy efficiently. Our cutting-edge energy storage solutions ensure uninterrupted power supply, even during cloudy days or low-wind periods.",
+        "Administración integral de contratos, remuneraciones y turnos del personal bajo el más estricto cumplimiento laboral.",
       visual: img4,
     },
     {
-      title: "Smart Grid Technology",
+      title: "Mantenimiento Preventivo",
       briefDescription:
-        "Navigate the future with our smart grid technology. Optimize energy distribution, monitor consumption, and contribute to a more sustainable and efficient energy ecosystem.",
+        "Supervisión proactiva de instalaciones, ascensores y calderas para evitar fallas costosas y asegurar la operatividad del edificio.",
       visual: img5,
     },
     {
-      title: "Energy-efficient Lighting",
+      title: "Resolución de Conflictos",
       briefDescription:
-        "Illuminate your space responsibly. Our energy-efficient lighting solutions provide bright, sustainable, and cost-effective illumination for homes and businesses.",
+        "Mediación activa y comunicación fluida y constante con el comité y los residentes para mantener un ambiente armónico.",
       visual: img6,
     },
   ],
