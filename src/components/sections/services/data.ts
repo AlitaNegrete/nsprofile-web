@@ -8,12 +8,12 @@ import img5 from "./assets/smart-grid.png";
 import img6 from "./assets/green.png";
 
 export const servicesSectionData = {
-  title: "Our Sustainable Energy Solutions",
+  title: "Gestión Integral de Copropiedades",
   subheading: {
-    text1_1: "Experience a Revolution in Energy Solutions - ",
-    text1_2: "Embrace Innovation, Embrace Sustainability.",
+    text1_1: "En un entorno legal y habitacional cada vez más complejo, las comunidades no solo necesitan administración; ",
+    text1_2: "requieren seguridad.",
     text2:
-      "We're here to Empower Your Life and Spaces with Clean, Renewable Energy, Paving the Way for a Brighter and Greener Tomorrow.",
+      "En SN Consultores, transformamos la gestión de copropiedad en un modelo de mejora continua, asegurando el cumplimiento del marco legal vigente y protegiendo la plusvalía de su inversión.",
   },
   services: [
     {
@@ -54,6 +54,6 @@ export const servicesSectionData = {
     },
   ],
   callToAction:
-    "Discover the Future of Green Energy. Choose Your Sustainable Solution Today!",
-  buttonText: "Explore More",
+    "Descubra una nueva forma de administrar. ¡Elija tranquilidad y eficiencia para su comunidad hoy!",
+  buttonText: "Contáctanos",
 };
