@@ -3,32 +3,32 @@ import img2 from "./assets/wind-person.png";
 import img3 from "./assets/amazonas2.png";
 
 export const projectsSection = {
-  title: "Featured Projects",
-  subheading1_1: "Explore Our Successful ",
-  subheading1_2: "Green Energy Endeavors",
+  title: "Casos Emblemáticos",
+  subheading1_1: "Hitos de Gestión y",
+  subheading1_2: " Soluciones Inmobiliarias",
   projects: [
     {
-      title: "Solar-Powered Community",
+      title: "Saneamiento Financiero y Auditoría",
       description:
-        "Empowering a community with sustainable solar energy solutions. Learn how [Company Name] brought clean and affordable electricity to homes, schools, and businesses.",
-      location: "Los Angeles, California, USA",
+        "Reestructuración profunda de las finanzas comunitarias. A través de una auditoría rigurosa, detectamos desviaciones, transparentamos cada peso ingresado y logramos estabilizar los fondos de reserva.",
+      location: "Comunidades Residenciales, Santiago",
       visual: img1,
     },
     {
-      title: "Wind Farm Innovation",
+      title: "Transición a la Ley 21.442",
       description:
-        "Revolutionizing wind energy with our innovative wind farm. Discover how [Company Name] is harnessing the power of the wind to create a greener and more sustainable future.",
-      location: "Scottish Highlands, United Kingdom",
+        "Adecuación normativa integral y actualización de reglamentos de copropiedad. Garantizamos que la comunidad cumpla estrictamente con el marco legal vigente, protegiendo el patrimonio de los propietarios.",
+      location: "Edificios y Condominios",
       visual: img2,
     },
     {
-      title: "Hydropower Plant Success",
+      title: "Gestión de Obras y Mantención Mayor",
       description:
-        "A journey into our hydropower success story. Explore how [Company Name] transforms the energy of flowing water into a reliable and eco-friendly power source.",
-      location: "Amazon Rainforest, South America",
+        "Administración técnica de proyectos complejos de reparación en áreas comunes y optimización de servicios operativos, asegurando calidad, plazos y la mejor relación costo-eficiencia para el comité.",
+      location: "Sector Centro, Santiago",
       visual: img3,
     },
   ],
-  callToAction: "Embark on a Green Energy Journey with [Company Name]",
-  button: "View More Projects",
+  callToAction: "Lleve la administración de su edificio al siguiente nivel",
+  button: "Conozca más servicios",
 };
