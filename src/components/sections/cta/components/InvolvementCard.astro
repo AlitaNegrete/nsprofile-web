@@ -5,23 +5,25 @@ import Title3 from "../../../shared/Title3.astro";
 export interface Props {
   title: string;
   description: string;
-  visual?: string;
 }
 
 const { title, description } = Astro.props;
 ---
 
 <div
-  class="group overflow-hidden rounded-xl h-full flex flex-col dark:bg-base-dark-800 shadow-lg dark:shadow-dark ring-1 ring-black/5 p-6 justify-between"
+  class="group overflow-hidden rounded-lg h-full flex flex-col dark:bg-base-dark-800 shadow-lg dark:shadow-dark ring-1 ring-black/5 pt-2"
 >
-  <div class="flex flex-col gap-4">
-    <div class="border-b border-primary/10 pb-3">
-      <Title3 className="dark:opacity-90 font-semibold text-primary">
+  <div class="grid grid-cols-1 content-between h-full mx-6 mb-6 pt-4">
+    <div class="flex">
+      <Title3 className="dark:opacity-70 self-center">
         {title}
       </Title3>
     </div>
-    <div class="text-sm opacity-80 text-justify leading-relaxed">
-      {description}
+
+    <div class="self-baseline mt-4">
+      <div class="text-sm opacity-80 text-justify leading-relaxed">
+        {description}
+      </div>
     </div>
   </div>
 </div>
