@@ -10,8 +10,7 @@ const { className = "" } = Astro.props;
 
 <div class=`mt-10 mb-5 w-full flex max-w-md mx-auto lg:mx-0 ${className}`>
   <div class="flex sm:flex-row flex-col gap-5 w-full">
-    <form
-      action="#"
+    <div
       class="py-1 pl-6 w-full pr-1 flex gap-3 items-center text-heading-3 shadow-lg shadow-box-shadow
         border border-box-border bg-box-bg rounded-full ease-linear focus-within:bg-body focus-within:border-primary"
     >
@@ -36,10 +35,12 @@ const { className = "" } = Astro.props;
         type="email"
         name=""
         id=""
+        readonly
         placeholder="contacto@snconsultores.cl"
         class="w-full py-3 outline-none bg-transparent"
       />
       <Button
+        href="mailto:contacto@snconsultores.cl"
         color="cta"
         variant="solid"
         className={"min-w-max  !rounded-full"}
@@ -62,6 +63,6 @@ const { className = "" } = Astro.props;
           </svg>
         </span>
       </Button>
-    </form>
+    </div>
   </div>
 </div>
