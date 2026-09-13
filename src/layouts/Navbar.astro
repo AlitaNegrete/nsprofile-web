@@ -35,14 +35,15 @@ const navItems = [
     <div class="min-w-max inline-flex relative">
       <!-- LOGO CONSTRUIDO CON CÓDIGO (SVG) -->
       <a href="/" class="relative flex items-center gap-3">
-        <div class="relative h-12 flex items-center">
+        <!-- AUMENTÉ EL TAMAÑO AQUÍ (de h-12 a h-16) para que el logo se vea más grande -->
+        <div class="relative h-16 flex items-center">
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 100" class="h-full w-auto">
             <!-- Cuadrado verde vinculado al color EXACTO de tu plantilla -->
             <rect x="0" y="10" width="70" height="70" rx="14" fill="currentColor" class="text-primary" />
             <!-- Letras SN blancas adentro del cuadrado -->
             <text x="35" y="58" font-family="system-ui, sans-serif" font-size="40" font-weight="900" fill="#ffffff" text-anchor="middle">SN</text>
-            <!-- Palabra Consultores -->
-            <text x="85" y="53" font-family="system-ui, sans-serif" font-size="34" font-weight="bold" fill="currentColor" class="text-heading-1">Consultores</text>
+            <!-- Palabra Consultores (ahora un poco más grande y gruesa) -->
+            <text x="85" y="55" font-family="system-ui, sans-serif" font-size="38" font-weight="900" fill="currentColor" class="text-heading-1">Consultores</text>
             <!-- Subtítulo pequeñito vinculado al color EXACTO -->
             <text x="88" y="74" font-family="system-ui, sans-serif" font-size="12" font-weight="600" fill="currentColor" class="text-primary" letter-spacing="2">GESTIÓN INMOBILIARIA</text>
           </svg>
@@ -73,11 +74,13 @@ const navItems = [
       <div
         class="lg:min-w-max flex items-center sm:w-max w-full pb-6 lg:pb-0 border-b border-box-bg lg:border-0 px-6 lg:px-0"
       >
+        <!-- ARREGLÉ EL BOTÓN AQUÍ: cambié variant="cta" por "solid" y agregué color="primary" -->
         <BtnLink
           text="Contacto"
           href="mailto:contacto@snconsultores.cl"
           className="flex justify-center w-full sm:w-max text-lg font-semibold"
-          variant="cta"
+          variant="solid"
+          color="primary"
         />
       </div>
     </div>
