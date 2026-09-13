@@ -1,8 +1,14 @@
 ---
 import Button from "./Button.astro";
+
+export interface Props {
+  href?: string;
+}
+
+const { href } = Astro.props;
 ---
 
-<Button color={"primary"} variant={"solid"} className={"min-w-max"}>
+<Button href={href} color={"primary"} variant={"solid"} className={"min-w-max"}>
   <span
     class="flex relative z-[5] font-medium text-lg font-semibold tracking-wide text-accent-light"
   >
