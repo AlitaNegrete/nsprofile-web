@@ -1,11 +1,12 @@
 ---
 export interface Props {
   className?: string;
-  color: "primary" | "secondary" | "cta";
-  variant: "solid" | "outline" | "gradient";
+  color?: "primary" | "secondary" | "cta";
+  variant?: "solid" | "outline" | "gradient";
+  href?: string;
 }
 
-const { className = "", color = "primary", variant = "solid" } = Astro.props;
+const { className = "", color = "primary", variant = "solid", href } = Astro.props;
 
 const getVariantStyle = (
   variant: "solid" | "outline" | "gradient" = "solid",
@@ -57,17 +58,21 @@ const getVariantStyle = (
 };
 
 const base =
-  "rounded-lg outline-none relative overflow-hidden px-6 py-3 border";
+  "rounded-lg outline-none relative overflow-hidden px-6 py-3 border inline-flex items-center justify-center text-center cursor-pointer";
 const animation = `duration-300 ease-linear`;
+
+// Si viene un href, se comporta como un enlace (<a>), si no, como un botón (<button>)
+const Tag = href ? "a" : "button";
 ---
 
-<button
+<Tag
+  href={href}
   class={`
-   ${base} 
+    ${base} 
     ${animation}
     ${getVariantStyle(variant, color)}
     ${className}
   `}
 >
   <slot />
-</button>
+</Tag>
